@@ -252,9 +252,6 @@ Dutydigit2NOTHASH:
 	add a, #30h
 	call DataWriter
 	
-	
-	
-	
 Dutydigit3:
 	call KEYPADSCANNER           ;value will be in r4
 	
@@ -432,9 +429,6 @@ waswrong12:
 	
 	
 	
-	
-	
-	
 AllChecksCleared:
 	;now we will calculate the ON and OFF time for our wave
 	
@@ -487,11 +481,7 @@ AllChecksCleared:
 	mov 30h, #20                 ; this is just a constant
 	;wave life will be in - > 1Ah
 	mov 31h, 1ah
-	
-	
-	
-	
-	
+
 	
 	;=====================================================
 PWM:
@@ -566,12 +556,7 @@ TIME_UP:
 ENDI:
 	RETI
 	
-	
-	
-	
-	
-	
-	
+
 	
 	;======================(SUBROUTINES)=========================
 	
@@ -669,20 +654,6 @@ BusyOrNotcheck:
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 div16_16:
 	mov r0, #00h                 ;lower byte of 9216
 	mov r1, #24h                 ;higher byte of 9216
@@ -741,8 +712,6 @@ div3:
 	
 	
 	
-	
-	
 ADD16_16:
 	;Return - answer now resides in R2 upper and R3 lower.
 	;Step 1 of the process
@@ -778,12 +747,7 @@ SUBB16_16:
 	MOV R2, A                    ;Move the answer to the low - byte of the result
 	;Return - answer now resides in R2 upper and R3 lower.
 	RET
-	
-	
-	
-	
-	
-	
+
 	
 	
 	;====================(PRE - DEFINED DELAY SUBROUTINES)==========
@@ -893,29 +857,7 @@ lOOOP:
 	DJNZ R5, LOOOP
 	
 	ret
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	;==========================(STRINGS)=========================
 	
 	
@@ -931,12 +873,4 @@ WAVE_LIFE: db "Enter Wave Life", 0
 key: db 1, 2, 3, 4, 5, 6, 7, 8, 9, ' * ', 0, '#', 0
 	
 endd:
-	
-	
-	
-	
-	
-	
-	
-	
 	END
