@@ -8,3 +8,13 @@ The user is asked the following 3 questions on an LCD and the user inputs using 
 
 Then all the necessary calculations are done and the PWM is sent to pin.
 The status of the wave life is also displayed on the LCD.
+
+# Circuit Diagrams
+![image](https://user-images.githubusercontent.com/118768714/217036466-825e7449-49cd-4b39-b736-4bc272ec5586.png)
+![image](https://user-images.githubusercontent.com/118768714/217036581-0782cbb4-6555-4860-918a-6f5144451a90.png)
+
+
+
+
+# Simulation Image
+![image](https://user-images.githubusercontent.com/118768714/217036927-0185d4fb-5895-436d-839e-c6d46082cb8b.png)
