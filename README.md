@@ -17,4 +17,4 @@ The status of the wave life is also displayed on the LCD.
 
 
 # Simulation Image
-![image](https://user-images.githubusercontent.com/118768714/217036927-0185d4fb-5895-436d-839e-c6d46082cb8b.png)
+![image](https://user-images.githubusercontent.com/118768714/217037461-3e4af69b-b5f2-4db3-bfef-5e1232e1126e.png)
